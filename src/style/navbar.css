@@ -33,12 +33,12 @@ nav{
     padding: 0 0 0 40px;
 }
 
-.nav-items li{
+.nav-items .navlink{
     list-style: none;
     padding: 0 15px;
 }
 
-.nav-items li a{
+.nav-items .navlink{
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 500;
@@ -51,6 +51,7 @@ nav{
 
 .supText{
     color: var(--normalText-color);
+    /* color: red; */
 }
 
 nav form{
